@@ -1,0 +1,7 @@
+*.txt
+*.log
+.vscode/
+.DS_Store
+.pytest_cache/
+.env
+.sass-cache
