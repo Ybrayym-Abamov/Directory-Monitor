@@ -95,12 +95,6 @@ def main(args):
     ns = parser.parse_args(args)
     print(ns)
 
-    #     numeric_level = getattr(logging, ns.loglevel.upper(), None)
-    #     if not isinstance(numeric_level, int):
-    #         raise ValueError('Invalid log level: {ns.loglevel.upper()}')
-    # else:
-    #     numeric_level = logging.WARNING
-
     logging.basicConfig(
         level=logging.DEBUG,
         style="{",
