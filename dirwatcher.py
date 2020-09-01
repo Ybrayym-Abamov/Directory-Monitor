@@ -14,6 +14,10 @@ import sys
 
 logger = logging.getLogger(__name__)
 
+if sys.version_info[0] < 3:
+    print('\n\t Are you using Python3? \n')
+    sys.exit()
+
 
 # globals
 exit_flag = False

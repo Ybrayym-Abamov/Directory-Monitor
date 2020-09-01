@@ -1,4 +1,4 @@
-# DirWatcher
+# Directory Monitor
 
 A CLI Python long-running program that monitors a directory in your file structure, reads the data from each file with a specified extension in the directory, and logs when a specified string of text is found in one of the files. The directory is monitored until the user intervenes. The program dynamically reports/logs its findings.
 
@@ -15,6 +15,8 @@ This program was built to monitor certain activities that could be taking place 
 
 How to use the program with the command line?
     If you go to the command line and type "python dirwatcher.py -h"(make sure your default terminal python is python3), it will show you series of usefull flags that you can use as you please
+
+    ### Demonstration
 
     For example:
         python3 dirwatcher.py -e .log -i 2.0 dirwatcher 'I love python'
