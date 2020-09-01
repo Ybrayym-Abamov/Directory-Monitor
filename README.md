@@ -1,9 +1,7 @@
 # Directory Monitor
 
-A CLI Python long-running program that monitors a directory in your file structure, reads the data from each file with a specified extension in the directory, and logs when a specified string of text is found in one of the files. The directory is monitored until the user intervenes. The program dynamically reports/logs its findings.
 
-
-This program was built to monitor certain activities that could be taking place in a given directory AND it will log the activities that have taken place to YOU in a human readable manner.
+A CLI Python long-running program that was built to monitor certain activities that could be taking place in a given directory AND it will log the activities that have taken place to YOU in a human readable manner.
     Activites are:
         1) Making of a directory
         2) Deletion of a directory
